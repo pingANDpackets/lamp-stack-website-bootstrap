@@ -1,1 +1,37 @@
-
+ 1  vi /etc/hostname
+    2  exit
+    3  yum install httpd wget vim unzip zip -y
+    4  systemctl start httpd
+    5  systemctl enable  httpd
+    6  ip addr
+    7  curl 192.168.56.22/24
+    8  curl 192.168.56.22
+   26  var /var/www/html/
+   27  cd  /var/www/html/
+   28  ls
+   29  ls -a
+   30  touch index.html
+   31  code index.html 
+   32  vim index.html 
+   33  systemctl restart httpd
+   34  curl http:///192.168.56.22/
+   35  curl https://www.tooplate.com/zip-templates/2135_mini_finance.zip
+   36  ls
+   37  cd /tmp/
+   38  ls
+   39  wget https://www.tooplate.com/zip-templates/2135_mini_finance.zip
+   40  unzip 2135_mini_finance.zip 
+   41  cd 2135_mini_finance
+   42  ls
+   43  cp -r * /var/www/html/
+   44  ls /var/www/html
+   45  systemctl restart httpd
+   46  systemctl status  httpd
+   47  systemctl status firewalld
+   48  systemctl stop firewalld
+   49  systemctl disable  firewalld
+   50  clear
+   51  systemctl status  httpd
+   52  ipaddr show
+   53  ip addr show
+   54  curl 192.168.56.22
